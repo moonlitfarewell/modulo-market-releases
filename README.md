@@ -1,17 +1,17 @@
-# Modulo Market 1.0.0
+# Modulo Market 1.0.1
 
 A World of Warcraft Forever Auction House snapshot browser and profession-economics companion. Modulo Market is an optional addon in the MODULO suite; it does not replace specialist addons such as Auctionator.
 
 ## Requirements and compatibility
 
-- World of Warcraft Forever, client interface `16001`; the 1.0.0 candidate is prepared from source milestone 0.12.20 and runtime-tested on build `70938`.
+- World of Warcraft Forever, client interface `16001`; the 1.0.1 release is built from the 0.12.20 source milestone with release metadata version 1.0.1 and runtime-tested on build `70938`.
 - **MODULO is required** and must be installed and enabled first. MODULO does not depend on Modulo Market.
 - `LibProfessionDB` is optional; the addon does not require it to load.
 - Retail compatibility is not claimed.
 
 ## Installation
 
-1. Download [Modulo Market 1.0.0](https://github.com/moonlitfarewell/modulo-market-releases/raw/refs/heads/main/Modulo-Market-1.0.0.zip).
+1. Download [Modulo Market 1.0.1](https://github.com/moonlitfarewell/modulo-market-releases/raw/refs/heads/main/Modulo-Market-1.0.1.zip).
 2. Extract the `ModuloMarket` folder into your WoW Forever `Interface/AddOns/` directory.
 3. Confirm the folder layout is `.../Interface/AddOns/ModuloMarket/ModuloMarket.toc`.
 4. Enable **MODULO** and **Modulo Market** in the AddOns list.
@@ -51,7 +51,7 @@ For upgrades, exit the client or reload the UI before replacing the `ModuloMarke
 
 ## Runtime testing status
 
-The 1.0.0 candidate is based on Modulo Market 0.12.20. On Forever 1.60.1 build `70938`, the player confirmed that tab switching and list repopulation felt smooth with no noticeable hitching. The captured diagnostics reported 18 tab selections, 22 completed sorts, zero sort restarts, no catalogue rebuilds during the capture, no item-event-triggered refreshes, and successful Instant item-class resolution for all 6,390 lookups. Earlier runtime evidence also covers specific Full Market refresh and cancellation paths; it does not establish that every feature, tab, dataset entry or sort mode has been exhaustively tested. Retail runtime testing is NOT RUN.
+The 1.0.1 release is based on the Modulo Market 0.12.20 source milestone; distributed addon version 1.0.1. On Forever 1.60.1 build `70938`, the player confirmed that tab switching and list repopulation felt smooth with no noticeable hitching. The captured diagnostics reported 18 tab selections, 22 completed sorts, zero sort restarts, no catalogue rebuilds during the capture, no item-event-triggered refreshes, and successful Instant item-class resolution for all 6,390 lookups. Earlier runtime evidence also covers specific Full Market refresh and cancellation paths; it does not establish that every feature, tab, dataset entry or sort mode has been exhaustively tested. Retail runtime testing is NOT RUN.
 
 ## Third-party data, attribution and licence scope
 
